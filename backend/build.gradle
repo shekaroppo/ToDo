@@ -24,9 +24,9 @@ targetCompatibility = JavaVersion.VERSION_1_7
 dependencies {
     appengineSdk 'com.google.appengine:appengine-java-sdk:1.9.28'
     compile 'javax.servlet:servlet-api:2.5'
-    compile 'com.firebase:firebase-client-android:2.5.2'
     compile 'org.apache.httpcomponents:httpclient:4.0.1'
-    compile files('src/main/lib/javax.mail.jar')
+    compile 'com.google.appengine:appengine-api-1.0-sdk:1.9.38'
+    compile 'com.firebase:firebase-client-jvm:2.5.2'
 }
 
 appengine {
